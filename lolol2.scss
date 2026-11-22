@@ -1,0 +1,9 @@
+/*-- scss:rules --*/
+
+/* keep card 1 dark slate (#1E293B) for the overall descriptive stat;
+   give cards 2-4 one muted plum shade so inferential tests don't clash with species colors */
+body.quarto-dashboard #deep-analysis .bslib-grid > .card.valuebox:nth-child(2),
+body.quarto-dashboard #deep-analysis .bslib-grid > .card.valuebox:nth-child(3),
+body.quarto-dashboard #deep-analysis .bslib-grid > .card.valuebox:nth-child(4) {
+  background-color: #5a3a61 !important;
+}
